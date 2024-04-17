@@ -44,7 +44,7 @@ public class TestCases extends testBase.TestBase{
 	        String dashboardText = dashboardElement.getText();
 	        logger.info("1st Menu option :" +dashboardText);
 	        Thread.sleep(4000);
-
+	        
 	        //-----------------------------
 						
 				
@@ -123,6 +123,7 @@ public class TestCases extends testBase.TestBase{
 	            boolean isInAscendingOrder = actualValues.equals(sortedValues);
 	            logger.info("Is the column in ascending order? : "  + isInAscendingOrder);
 	            takeScreenshot.save("Dashboard");
+	            logger.info("Dashboard working as expected");
 	            //---------------------------------------------------------------------------------
 	        }
 		
@@ -415,6 +416,7 @@ public class TestCases extends testBase.TestBase{
         	Thread.sleep(3000);
 
   //------------------------------------------------------------
+        	logger.info("Config_Device working as expected");
         	logger.info("-----------------------------------------------------------");
 			}
 		
