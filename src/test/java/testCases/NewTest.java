@@ -9,6 +9,7 @@ public class NewTest extends testBase.TestBase {
 		loginAs.qa("admin", "12345678");
 		logger.info("Logged in Successfully");
 		takeScreenshot.save("SuccessfulLogin");
+		logger.info("Logged in Successfully");
 					
 			}
 
